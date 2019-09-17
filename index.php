@@ -25,10 +25,10 @@
         <figure>
 
             <img src="https://cdn.pixabay.com/photo/2019/09/11/13/47/grass-4468766_1280.jpg" alt="">
-            <img src="https://via.placeholder.com/350x150" alt="">
-            <img src="https://via.placeholder.com/350x150" alt="">
-            <img src="https://via.placeholder.com/350x150" alt="">
-            <img src="https://via.placeholder.com/350x150" alt="">
+            <img src="https://cdn.pixabay.com/photo/2019/09/12/01/14/niagara-falls-4470219_1280.jpg" alt="">
+            <img src="https://cdn.pixabay.com/photo/2019/09/08/10/41/landscape-4460685_1280.jpg" alt="">
+            <img src="https://cdn.pixabay.com/photo/2019/09/14/10/42/bee-friend-4475693_1280.jpg" alt="">
+            <img src="https://cdn.pixabay.com/photo/2019/09/10/16/15/sea-4466575_1280.jpg" alt="">
 
         </figure>
 
