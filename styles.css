@@ -9,6 +9,11 @@ nav{
     color: white;
 }
 
+.logo{
+    width: 30%;
+    padding: 0px;
+}
+
 .bar ol{
     list-style-type: none;
     padding: 5px;
@@ -84,21 +89,28 @@ h1 {
 }
 
 .dechets{
-    width: 100%;
+    width: 80%;
+    margin: 10px 10% 10px;
 }
 
 article{
-    text-align: center;
     width: 100%;
     display: inline-block;
+    overflow-wrap: break-word;
+}
+
+li{
+    list-style: circle;
+    padding: 0.3em;
 }
 
 .informations{
-    background: lightgrey;
 }
 
 .informations img{
     float: left;
+    padding: 0.3em;
+    width: 20%;
 }
 
 .descriptions{
@@ -107,4 +119,6 @@ article{
 
 .descriptions img{
     float: right;
+    padding: 0.3em;
+    width: 35%;
 }
