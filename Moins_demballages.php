@@ -30,7 +30,7 @@
     <section class="emballages">
         <article class="vrac">
             <h2>BeeVrac</h2>
-                <ul class="quoi">
+                <ul class="what">
                     <li>
                         <img src="https://cdn.pixabay.com/photo/2016/04/02/15/13/noodle-1303003_960_720.jpg" alt="Pâtes en vrac dans un bocal"></img>
                     </li>
@@ -41,9 +41,9 @@
                     </li>
                 </ul>
         </article>
-        <article>
+        <article class="vrac">
             <h3>Plus d'emballages jetables !</h3>
-            <ul class="comment">
+            <ul class="what">
                 <li>
                     <p>Comment ça marche ?</p>
                     <p>J'apporte mes contenants, je pèse chaque contenant avec son couvercle et je colle le code barre dessus, je me sers la quatité désirée, et plus qu'à passer en caisse !</p>
