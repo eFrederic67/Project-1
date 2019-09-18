@@ -19,8 +19,8 @@
     </div>
     <div id="sliderDelph">
         <figure>
-            <img src="images/BeeVrac1.jpg" alt="patronne du agasin BeeVrac">
-            <img src="images/BeeVrac2.jpg" alt="Mur du magasin BeeVrac">
+            <img src="images/BeeVrac1.jpg" alt="patronne du magasin BeeVrac">
+            <img src="images/BeeVrac2.jpg" alt="mur du magasin BeeVrac">
         </figure>
     </div>
 </header>
