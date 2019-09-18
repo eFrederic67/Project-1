@@ -59,13 +59,13 @@
     <footer>
         <ul class="liste">
             <li>
-                <a href="index.php">Accueil</a
+                <a href="index.php">Accueil</a>
             </li>
             <li>
-                <a href="mentionslegales.php">Mentions légales</a
+                <a href="mentionslegales.php">Mentions légales</a>
             </li>
             <li>
-                <a href="plansite.php">Plan du site</a
+                <a href="plansite.php">Plan du site</a>
             </li>
             <li>
                 <a href="#contact">Contact</a>
