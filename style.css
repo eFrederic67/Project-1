@@ -1,3 +1,4 @@
+/* nav bar */
 nav{
     background-color: darkseagreen;
     color: white;
@@ -37,6 +38,7 @@ nav{
     font-weight: bold;
 }
 
+/* Slider Delphine */
 div#sliderDelph {
     width: 80%;
 }
@@ -78,7 +80,7 @@ div#sliderDelph figure {
     text-align: left;
     animation: 10s slidy infinite;
 }
-
+/* Balises Delphine */
 body {
     font-size: 14px;
 }
@@ -117,10 +119,6 @@ ul .beevrac {
     padding-left:0;
 }
 
-li {
-
-}
-
 img {
     width: 100%;
     height: auto;
@@ -130,7 +128,7 @@ section {
     width: 320px;
     margin: auto;
 }
-
+/* Formulaire de contact */
 form
 {
     width: 320px;
@@ -181,6 +179,7 @@ form button
     float: right;
 }
 
+/* Footer */
 footer
 {
     margin-top: 50px;
@@ -221,6 +220,7 @@ footer a:visited {
     color: #F76C6C;
     text-decoration: none;
 }
+/* Responsive */
 
 /* Tablet Styles */
 @media screen and (min-width: 401px) and (max-width: 960px) {
