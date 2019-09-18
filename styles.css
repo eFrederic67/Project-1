@@ -222,7 +222,7 @@ article h4
     text-align: center;
 }
 
-article p
+.overlay p
 {
     font-size: 13px;
     margin-bottom: 20px;
@@ -320,6 +320,34 @@ h5 {
     width: 35%;
 }
 
+
+
+/*Delphine*/
+
+
+
+
+
+.vrac ul {
+    list-style:none;
+    margin-left:0;
+    padding-left:0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.emballages {
+    width: 320px;
+    margin: auto;
+}
+
+
+
+
+
 /*contact + footer*/
 
 
@@ -413,15 +441,72 @@ footer a {
 }
 
 footer a:visited {
-    color: #F76C6C;
+    color: #ff7a00;
     text-decoration: none;
 }
 
 a {
-    color: #F76C6C;
+    color: #ff7a00;
     text-decoration: none;
 }
 
+
+
+/* Tablet Styles */
+@media screen and (min-width: 401px) and (max-width: 960px) {
+    .what li {
+        font-size: 16px;
+        margin: auto;
+        display: inline-block;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    form {
+        width:75%;
+    }
+    .emballages {
+        width:75%;
+    }
+    form input, form textarea {
+        width:400px;
+    }
+    form textarea {
+        height: 200px;
+    }
+}
+
+/* Desktop Styles */
+@media screen and (min-width: 961px) {
+    .what li {
+        font-size: 16px;
+        margin: auto;
+        display: inline-block;
+        width: 50%;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .vrac ul {
+        padding: 0;
+        list-style: none;
+        display: flex;
+    }
+    h2 {
+        font-size:26px;
+    }
+    form {
+        width:50%;
+    }
+    .emballages {
+        width:50%;
+    }
+    form input, form textarea {
+        width:500px;
+    }
+    form textarea {
+        height:300px;
+    }
+}
 
 
 

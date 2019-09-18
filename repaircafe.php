@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
     <title>Repair café</title>
 </head>
 
 <body>
 <header>
     <div class="logonav">
-        <div class="logo"><a href="#home"><img class="logo" src="images/logo.png" alt="logo"></a></div>
+        <div class="logo"><a href="index.php"><img class="logo" src="images/logo.png" alt="logo"></a></div>
         <nav class="bar">
 
             <ol>
-                <li class="navbar"><a href="#Actions">ACTIONS</a></li>
-                <li class="navbar"><a href="#Associations">ASSOCIATIONS</a></li>
-                <li class="navbar"><a href="#Dechets">DECHETS</a></li>
+                <li class="navbar"><a href="index.php#Actions">ACTIONS</a></li>
+                <li class="navbar"><a href="index.php#Associations">ASSOCIATIONS</a></li>
+                <li class="navbar"><a href="index.php#Dechets">DECHETS</a></li>
             </ol>
         </nav>
     </div>

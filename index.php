@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
     <title>My green city</title>
 </head>
 
@@ -61,7 +62,7 @@
                 <h4>Envie</h4>
                 <p>créée à Strasbourg, cette association a maintenant plein de magasins</p>
                 <a class="button-assoc"
-                   href="https://strasbourg.envie.org/">Plus d'infos</a>
+                   href="envie.php">Plus d'infos</a>
             </div>
         </article>
         <article id="Crous">
@@ -69,7 +70,7 @@
                 <h4>Crous</h4>
                 <p>créée à Strasbourg, cette association a maintenant plein de magasins</p>
                 <a class="button-assoc"
-                   href="https://www.instagram.com/p/B2dybNTo4e4/">Plus d'infos</a>
+                   href="crous.php">Plus d'infos</a>
             </div>
         </article>
         <article id="BeeVrac">
@@ -77,7 +78,7 @@
                 <h4>BeeVrac</h4>
                 <p>créée à Strasbourg, cette association a maintenant plein de magasins</p>
                 <a class="button-assoc"
-                   href="https://beevrac.fr/">Plus d'infos</a>
+                   href="beevrac.php">Plus d'infos</a>
             </div>
         </article>
         <article id="RepairCafe">
@@ -85,7 +86,7 @@
                 <h4>Repair Café</h4>
                 <p>créée à Strasbourg, cette association a maintenant plein de magasins</p>
                 <a class="button-assoc"
-                   href="http://www.repaircafe-strasbourg.fr/">Plus d'infos</a>
+                   href="repaircafe.php">Plus d'infos</a>
             </div>
         </article>
     </div>
@@ -151,13 +152,13 @@
 <footer>
     <ul class="liste">
         <li>
-            <a href="index.php">Accueil</a
+            <a href="index.php">Accueil</a>
         </li>
         <li>
-            <a href="mentionslegales.php">Mentions légales</a
+            <a href="mentionslegales.php">Mentions légales</a>
         </li>
         <li>
-            <a href="plansite.php">Plan du site</a
+            <a href="plansite.php">Plan du site</a>
         </li>
         <li>
             <a href="#contact">Contact</a>
