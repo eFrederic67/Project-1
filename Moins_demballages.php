@@ -19,18 +19,18 @@
     </div>
     <div id="sliderDelph">
         <figure>
-            <img src="https://news.defricheurs.fr/wp-content/uploads/2018/06/DSC01348.jpg" alt="">
-            <img src="https://strasbourg.geteatout.fr/wp-content/uploads/2019/01/geteatoutmatcha.jpg" alt="">
+            <img src="images/BeeVrac1.jpg" alt="patronne du agasin BeeVrac">
+            <img src="images/BeeVrac2.jpg" alt="Mur du magasin BeeVrac">
         </figure>
     </div>
 </header>
 
 <body>
 
-    <section>
-        <article>
+    <section class="emballages">
+        <article class="vrac">
             <h2>BeeVrac</h2>
-                <ul classe="beevrac">
+                <ul class="quoi">
                     <li>
                         <img src="https://cdn.pixabay.com/photo/2016/04/02/15/13/noodle-1303003_960_720.jpg" alt="Pâtes en vrac dans un bocal"></img>
                     </li>
@@ -43,7 +43,7 @@
         </article>
         <article>
             <h3>Plus d'emballages jetables !</h3>
-            <ul classe="beevrac">
+            <ul class="comment">
                 <li>
                     <p>Comment ça marche ?</p>
                     <p>J'apporte mes contenants, je pèse chaque contenant avec son couvercle et je colle le code barre dessus, je me sers la quatité désirée, et plus qu'à passer en caisse !</p>

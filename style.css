@@ -124,7 +124,7 @@ img {
     height: auto;
 }
 
-section {
+.emballages {
     width: 320px;
     margin: auto;
 }
@@ -224,7 +224,7 @@ footer a:visited {
 
 /* Tablet Styles */
 @media screen and (min-width: 401px) and (max-width: 960px) {
-    article li {
+    .vrac li {
         font-size: 16px;
         margin: auto;
         display: inline-block;
@@ -235,7 +235,7 @@ footer a:visited {
     form {
         width:75%;
     }
-    section {
+    .emballages {
         width:75%;
     }
     form input, form textarea {
@@ -248,7 +248,7 @@ footer a:visited {
 
 /* Desktop Styles */
 @media screen and (min-width: 961px) {
-    article li {
+    .vrac li {
         font-size: 16px;
         margin: auto;
         display: inline-block;
@@ -256,7 +256,7 @@ footer a:visited {
         border-radius: 10px;
         padding: 10px;
     }
-    article ul {
+    .vrac ul {
         padding: 0;
         list-style: none;
         display: flex;
@@ -267,7 +267,7 @@ footer a:visited {
     form {
         width:50%;
     }
-    section {
+    .emballages {
         width:50%;
     }
     form input, form textarea {
