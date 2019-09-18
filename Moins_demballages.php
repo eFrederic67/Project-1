@@ -17,12 +17,6 @@
             </ol>
         </nav>
     </div>
-    <div id="sliderDelph">
-        <figure>
-            <img src="images/BeeVrac1.jpg" alt="patronne du magasin BeeVrac">
-            <img src="images/BeeVrac2.jpg" alt="mur du magasin BeeVrac">
-        </figure>
-    </div>
 
     <div id="slider">
         <figure>
