@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Moins d'emballages : achetez en vrac !</title>
+    <title>My Green City -  BeeVrac</title>
 </head>
 
 <header>
@@ -23,6 +23,17 @@
             <img src="images/BeeVrac2.jpg" alt="mur du magasin BeeVrac">
         </figure>
     </div>
+
+    <div id="slider">
+        <figure>
+            <img src="images/BeeVrac1.jpg" alt="patronne du magasin BeeVrac">
+            <img src="images/BeeVrac2.jpg" alt="mur du magasin BeeVrac">
+            <img src="https://cdn.pixabay.com/photo/2017/04/25/08/02/coffee-beans-2258839_960_720.jpg" alt="Grains de café en vrac">
+            <img src="https://cdn.pixabay.com/photo/2018/06/29/15/18/rice-3506194_960_720.jpg" alt="Riz en vrac">
+            <img src="https://cdn.pixabay.com/photo/2017/08/15/11/29/chocolate-2643591_960_720.jpg" alt="Cacao en vrac">
+        </figure>
+    </div>
+
 </header>
 
 <body>
