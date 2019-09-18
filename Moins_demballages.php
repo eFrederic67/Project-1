@@ -7,14 +7,30 @@
 </head>
 
 <header>
+    <div class="logonav">
+        <div class="logo"><a href="#home"><img class="logo" src="images/logo.png" alt="logo"></a></div>
+        <nav class="bar">
+            <ol>
+                <li class="navbar"><a href="#Actions">ACTIONS</a></li>
+                <li class="navbar"><a href="#Associations">ASSOCIATIONS</a></li>
+                <li class="navbar"><a href="#Dechets">DECHETS</a></li>
+            </ol>
+        </nav>
+    </div>
+    <div id="sliderDelph">
+        <figure>
+            <img src="https://news.defricheurs.fr/wp-content/uploads/2018/06/DSC01348.jpg" alt="">
+            <img src="https://strasbourg.geteatout.fr/wp-content/uploads/2019/01/geteatoutmatcha.jpg" alt="">
+        </figure>
+    </div>
 </header>
 
 <body>
 
     <section>
         <article>
-            <h2>BeeVrac : plus d'emballages jetables !</h2>
-                <ul>
+            <h2>BeeVrac</h2>
+                <ul classe="beevrac">
                     <li>
                         <img src="https://cdn.pixabay.com/photo/2016/04/02/15/13/noodle-1303003_960_720.jpg" alt="Pâtes en vrac dans un bocal"></img>
                     </li>
@@ -22,10 +38,21 @@
                         <p>Chez BeeVrac je ramène mes propres contenants ! Bocaux, sacs à vrac, bouteilles, consignes...</p>
                         <p>Beaucoup de produits alimentaires sont disponibles : riz, pâtes, légumineuses, farines, sucreries, céréales, café, thé, cacao, graines, noix, herbes, épices, huile, vinaigre, boissons...</p>
                         <p>Le magasin propose également des produits de nettoyage pour le linge et la maison et des produits cosmétiques !</p>
-                        <p>Comment ça marche ? J'apporte mes contenants, je pèse chaque contenant avec son couvercle et je colle le code barre dessus, je me sers la quatité désirée, et plus qu'à passer en caisse !</p>
-                        <a href="https://beevrac.fr/" onclick="window.open(this.href);return false">Visiter le site du magasin BeeVrac</a
                     </li>
                 </ul>
+        </article>
+        <article>
+            <h3>Plus d'emballages jetables !</h3>
+            <ul classe="beevrac">
+                <li>
+                    <p>Comment ça marche ?</p>
+                    <p>J'apporte mes contenants, je pèse chaque contenant avec son couvercle et je colle le code barre dessus, je me sers la quatité désirée, et plus qu'à passer en caisse !</p>
+                    <a href="https://beevrac.fr/" onclick="window.open(this.href);return false">Visiter le site du magasin BeeVrac</a
+                </li>
+                <li>
+                    <img src="https://cdn.pixabay.com/photo/2017/01/27/19/49/beans-2014062_960_720.jpg" alt="Légumineuses en vrac dans des bocaux"></img>
+                </li>
+            </ul>
         </article>
     </section>
 
