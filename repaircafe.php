@@ -23,11 +23,11 @@
     </div>
     <div id="slider">
         <figure>
-            <img src="http://www.ville-seyssinet-pariset.fr/sites/default/files/styles/seyssinet_slide/public/illus-repair-cafe.jpg?itok=DVNQupBr" alt="">
-            <img src="https://cdn.pixabay.com/photo/2019/09/12/01/14/niagara-falls-4470219_1280.jpg" alt="">
-            <img src="https://cdn.pixabay.com/photo/2019/09/08/10/41/landscape-4460685_1280.jpg" alt="">
-            <img src="https://cdn.pixabay.com/photo/2019/09/14/10/42/bee-friend-4475693_1280.jpg" alt="">
-            <img src="https://cdn.pixabay.com/photo/2019/09/10/16/15/sea-4466575_1280.jpg" alt="">
+            <img src="images/repaircafe2.jpg" alt="logo repair cafe">
+            <img src="images/repaircafe1.jpg" alt="atelier au repair café">
+            <img src="images/repaircafe4.jpg" alt="atelier au repair café">
+            <img src="images/repaircafe5.jpg" alt="atelier au repair café">
+            <img src="images/repaircafe6.jpg" alt="reparation d'un vélo">
         </figure>
     </div>
 </header>
@@ -55,9 +55,10 @@
                 <p>Nous intervenons principalement dans le rayon de <strong>Strasbourg Eurométropole</strong> :</p>
                 <p>Achenheim - Breuschwickersheim - Bischheim - Blaesheim - Eckbolsheim - Eckwersheim - Entzheim - Eschau - Fegersheim - Geispolsheim - Hangenbieten - Hoenheim - Holtzheim - Illkirch-Graffenstaden - Kolbsheim - Lampertheim - La Wantzenau - Lipsheim - Lingolsheim - Mittelhausbergen - Mundolsheim - Niederhausbergen - Oberhausbergen - Oberschaeffolsheim - Osthoffen - Ostwald - Plobsheim - Reichstett - Schiltigheim - Souffelweyersheim - Strasbourg - Vendenheim - Wolfisheim</p>
                 <p>Nous recherchons toujours des bénévoles, et nous sommes à l'écoute pour toute proposition de lieu où poser nos instruments.</p>
+                <a href="http://www.repaircafe-strasbourg.fr" onclick="window.open(this.href);return false">Visiter le site de l'association Repair café</a
             </li>
             <li>
-                <img src="https://cdn.pixabay.com/photo/2017/01/27/19/49/beans-2014062_960_720.jpg" alt="Légumineuses en vrac dans des bocaux"></img>
+                <img src="images/repaircafe3.jpg" alt="repair cafe eurometropole"></img>
             </li>
         </ul>
     </article>
