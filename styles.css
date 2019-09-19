@@ -1,0 +1,512 @@
+/*navbar*/
+body{
+    font-family: Poiret One;
+}
+nav{
+    background-color: darkseagreen;
+    color: white;
+    width: 100%;
+}
+
+.logonav{
+    display: flex;
+}
+
+.logo img{
+    float: left;
+    height: 100%;
+}
+
+.bar{
+    display: flex;
+}
+
+.bar ol{
+    list-style-type: none;
+    margin: 0;
+    padding:5px;
+    display: flex;
+    align-items: center;
+}
+
+
+.navbar{
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+div#slider{
+    width: 80%;
+}
+
+div#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    text-align: left;
+}
+
+div#slider figure img{
+    width: 20%;
+    height: auto;
+    float: left;
+}
+
+div#slider{
+    width: 100%;
+    max-width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+
+@keyframes slidy {
+    0% { left: 0% }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+}
+div#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    left: 0;
+    text-align: left;
+    animation: 30s slidy infinite;
+}
+
+
+/*partie action et association*/
+h2
+{
+    font-weight: bold;
+    font-size: 2.5em;
+    color:darkseagreen;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 0px;
+
+}
+
+h3
+{
+    font-size: 20px;
+    color: #ff7a00;
+    text-decoration-line: underline;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.list-style-none
+{
+    list-style: none;
+}
+
+
+/* ACTIONS */
+
+
+#Actions
+{
+    height: 100%;
+    margin-bottom: 50px;
+
+
+}
+#Actions ul
+{
+    /*padding-top: 180px;*/
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+#Actions ul li
+{
+    width: 292px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: #eff5ef;
+    text-align: center;
+
+}
+
+#Actions ul li
+{
+    margin: 5px 10px;
+}
+
+#Actions ul img
+{
+    width: 292px;
+
+}
+
+.image-droite
+{
+    height: 180px;
+    width: auto !important;
+}
+
+#Actions ul li h2
+{
+    text-align: center;
+}
+
+#Actions ul li p
+{
+    padding: 5px 5px;
+}
+
+
+
+/* ASSOCIATIONS */
+
+#Associations
+{
+    background-color: #eff5ef;
+    padding: 30px 0 60px 0;
+    height: 100%;
+
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+#Associations article
+{
+    width : 456px;
+    height: 200px;
+    border: 2px solid #ff7a00;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.overlay
+{
+    background-color: rgba(255,255,255,0.8);
+    height: 100%;
+    width: 190px;
+    float: right;
+    padding: 20px;
+    border-radius: 0 10px 10px 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+article h4
+{
+    border-bottom: 1px solid #fde;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.overlay p
+{
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+#Envie
+{
+    background-image: url(images/envie.jpg);
+    background-size: contain;
+
+}
+
+#Crous
+{
+    background-image: url(images/crous.png);
+    background-size: contain;
+}
+
+#BeeVrac
+{
+    background-image: url(images/beevrac.jpeg);
+    background-size: contain;
+}
+
+#RepairCafe
+{
+    background-image: url(images/repair-cafe.jpeg);
+    background-size: contain;
+}
+
+.button-assoc
+{
+    color: #fff;
+    background-color: #ff7a00;
+    padding: 6px 20px;
+    border-radius: 3px;
+}
+
+.button-assoc:hover
+{
+    background-color: #02b8dd;
+}
+
+
+
+
+
+/*gestion des dechets*/
+
+
+
+h5 {
+    text-align: center;
+    font-size: 1.7em;
+    color: #ff7a00;
+}
+
+.dechets{
+    width: 80%;
+    margin: 10px 10% 10px;
+}
+
+.gestion{
+    width: 100%;
+    display: inline-block;
+    overflow-wrap: break-word;
+}
+
+.conseils{
+    display: flex;
+}
+
+.point{
+    list-style: circle;
+}
+
+
+.point li{
+    padding: 0.2em;
+}
+
+.informations img{
+    float: left;
+    padding: 0.3em;
+    width: 20%;
+}
+
+.descriptions{
+    background: #eff5ef;
+}
+
+.descriptions img{
+    float: right;
+    padding: 0.3em;
+    width: 35%;
+}
+
+
+
+/*Delphine*/
+
+
+
+
+
+.vrac ul {
+    list-style:none;
+    margin-left:0;
+    padding-left:0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.emballages {
+    width: 320px;
+    margin: auto;
+}
+
+
+
+
+
+/*contact + footer*/
+
+
+
+
+form
+{
+    width: 320px;
+    margin: auto;
+    color: dimgray;
+}
+
+form label
+{
+    display: block;
+    padding-bottom: 10px;
+}
+
+form input
+{
+    padding: 0 10px;
+}
+
+form input, form textarea
+{
+    height: 40px;
+    width: 290px;
+    margin-bottom: 20px;
+    box-shadow: none;
+    border: 1px solid #8F8F8F;
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form textarea
+{
+    padding: 10px;
+    height: 150px;
+
+}
+
+form button
+{
+    width: 150px;
+    height: 40px;
+    background-color: darkseagreen;
+    color: whitesmoke;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    float: right;
+}
+
+/* Footer */
+footer
+{
+    margin-top: 50px;
+    background-color: darkseagreen;
+    padding: 5px 0;
+    color: whitesmoke;
+    width: 100%;
+    height: 110px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer li
+{
+    height: 57px;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.liste
+{
+    padding-left: 0;
+    padding-top: 24px;
+    float: right;
+    list-style: none;
+}
+
+footer a {
+    color: whitesmoke;
+    font-weight:bold;
+}
+
+footer a:visited {
+    color: #ff7a00;
+    text-decoration: none;
+}
+
+a {
+    color: #ff7a00;
+    text-decoration: none;
+}
+
+
+
+/* Tablet Styles */
+@media screen and (min-width: 401px) and (max-width: 960px) {
+    .what li {
+        font-size: 16px;
+        margin: auto;
+        display: inline-block;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    form {
+        width:75%;
+    }
+    .emballages {
+        width:75%;
+    }
+    form input, form textarea {
+        width:400px;
+    }
+    form textarea {
+        height: 200px;
+    }
+}
+
+/* Desktop Styles */
+@media screen and (min-width: 961px) {
+    .what li {
+        font-size: 16px;
+        margin: auto;
+        display: inline-block;
+        width: 50%;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .vrac ul {
+        padding: 0;
+        list-style: none;
+        display: flex;
+    }
+    h2 {
+        font-size:26px;
+    }
+    form {
+        width:50%;
+    }
+    .emballages {
+        width:50%;
+    }
+    form input, form textarea {
+        width:500px;
+    }
+    form textarea {
+        height:300px;
+    }
+}
