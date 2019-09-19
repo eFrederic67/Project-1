@@ -1,3 +1,10 @@
+
+
+body{
+    font-family: Poiret One;
+}
+
+
 /*navbar*/
 nav{
     background-color: darkseagreen;
@@ -334,17 +341,21 @@ h5 {
     padding-left:0;
 }
 
+.vrac li{
+    width: 100%;
+    height: auto;
+}
+
 img {
     width: 100%;
     height: auto;
 }
 
+
 .emballages {
-    width: 320px;
+    width: 80%;
     margin: auto;
 }
-
-
 
 
 
@@ -355,7 +366,7 @@ img {
 
 form
 {
-    width: 320px;
+    width: 60%;
     margin: auto;
     color: dimgray;
 }
@@ -368,13 +379,13 @@ form label
 
 form input
 {
+    height: 40px;
     padding: 0 10px;
 }
 
 form input, form textarea
 {
-    height: 40px;
-    width: 290px;
+    width: 100%;
     margin-bottom: 20px;
     box-shadow: none;
     border: 1px solid #8F8F8F;
@@ -453,31 +464,25 @@ a {
 
 
 /* Tablet Styles */
-@media screen and (min-width: 401px) and (max-width: 960px) {
+@media screen and(min-width: 401px) and(max-width: 960px) {
     .what li {
-        font-size: 16px;
+        font-size: 1em;
         margin: auto;
         display: inline-block;
     }
     h2 {
-        font-size: 22px;
+        font-size: 1.5em;
     }
-    form {
-        width:75%;
-    }
+
     .emballages {
         width:75%;
     }
-    form input, form textarea {
-        width:400px;
-    }
-    form textarea {
-        height: 200px;
-    }
+
+
 }
 
 /* Desktop Styles */
-@media screen and (min-width: 961px) {
+@media screen and(min-width: 961px) {
     .what li {
         font-size: 16px;
         margin: auto;
@@ -500,13 +505,9 @@ a {
     .emballages {
         width:50%;
     }
-    form input, form textarea {
-        width:500px;
-    }
+
     form textarea {
         height:300px;
     }
 }
-
-
 
