@@ -52,7 +52,7 @@
                 <li>
                     <p>Comment ça marche ?</p>
                     <p>J'apporte mes contenants, je pèse chaque contenant avec son couvercle et je colle le code barre dessus, je me sers la quatité désirée, et plus qu'à passer en caisse !</p>
-                    <a href="https://beevrac.fr/" onclick="window.open(this.href);return false">Visiter le site du magasin BeeVrac</a
+                    <a href="https://beevrac.fr/" onclick="window.open(this.href);return false">Visiter le site du magasin BeeVrac</a>
                 </li>
                 <li>
                     <img src="https://cdn.pixabay.com/photo/2017/01/27/19/49/beans-2014062_960_720.jpg" alt="Légumineuses en vrac dans des bocaux"></img>
