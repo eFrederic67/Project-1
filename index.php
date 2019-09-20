@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name=“viewport” content=“width=device-width, initial-scale=1.0, shrink-to-fit=no”>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="./styles.css">
     <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
     <title>My green city</title>
@@ -23,18 +23,18 @@
     </div>
     <div id="slider">
         <figure>
-            <img src="https://cdn.pixabay.com/photo/2019/09/11/13/47/grass-4468766_1280.jpg" alt="">
-            <img src="https://cdn.pixabay.com/photo/2019/09/12/01/14/niagara-falls-4470219_1280.jpg" alt="">
-            <img src="https://cdn.pixabay.com/photo/2019/09/08/10/41/landscape-4460685_1280.jpg" alt="">
-            <img src="https://cdn.pixabay.com/photo/2019/09/14/10/42/bee-friend-4475693_1280.jpg" alt="">
-            <img src="https://cdn.pixabay.com/photo/2019/09/10/16/15/sea-4466575_1280.jpg" alt="">
+            <img src="images/slider_envie_1.jpg" alt="logo Envie">
+            <img src="images/crous1.jpeg" alt="crous">
+            <img src="images/BeeVrac1.jpg" alt="BeeVrac">
+            <img src="images/repaircafe2.jpg" alt="logo repair cafe">
+            <img src="https://cdn.pixabay.com/photo/2019/09/10/16/15/sea-4466575_1280.jpg" alt="la mer">
         </figure>
     </div>
 </header>
 
 <section id="Actions">
     <h2>Actions Eurométropole</h2>
-    <ul class="list-style-none">
+    <ul class="list-style-none padding">
         <!-- action 1 -->
         <li>
             <h3>Compostage</h3>
@@ -62,32 +62,28 @@
             <div class="overlay">
                 <h4>Envie</h4>
                 <p>créée à Strasbourg, cette association a maintenant plein de magasins</p>
-                <a class="button-assoc"
-                   href="envie.php">Plus d'infos</a>
+                <a class="button-assoc" href="envie.php">Plus d'infos</a>
             </div>
         </article>
         <article id="Crous">
             <div class="overlay">
                 <h4>Crous</h4>
                 <p>créée à Strasbourg, cette association a maintenant plein de magasins</p>
-                <a class="button-assoc"
-                   href="crous.php">Plus d'infos</a>
+                <a class="button-assoc" href="crous.php">Plus d'infos</a>
             </div>
         </article>
         <article id="BeeVrac">
             <div class="overlay">
                 <h4>BeeVrac</h4>
                 <p>créée à Strasbourg, cette association a maintenant plein de magasins</p>
-                <a class="button-assoc"
-                   href="beevrac.php">Plus d'infos</a>
+                <a class="button-assoc" href="beevrac.php">Plus d'infos</a>
             </div>
         </article>
         <article id="RepairCafe">
             <div class="overlay">
                 <h4>Repair Café</h4>
                 <p>créée à Strasbourg, cette association a maintenant plein de magasins</p>
-                <a class="button-assoc"
-                   href="repaircafe.php">Plus d'infos</a>
+                <a class="button-assoc" href="repaircafe.php">Plus d'infos</a>
             </div>
         </article>
     </div>
@@ -121,7 +117,8 @@
 
     <article class="descriptions gestion">
         <img alt="Poubelle" src="https://cdn.pixabay.com/photo/2013/11/09/20/19/trash-207996_960_720.jpg">
-        <p>jgrjjrehguresnof,ksreng,jselgtfnbslrjeqk,nvhjdkrhyjvsuyssefze v' tg e( g(er hg(r (z sthg(h s hstrhs gq q,sdc,uhynisjut</p>
+        <p>La collecte des déchets est assurée quotidiennement sur l'ensemble du territoire. Collecte en porte à porte, en apport volontaire, en déchèterie, du bac bleu, du bac jaune, du verre, des encombrants... La collecte est un service de proximité par excellence.</p>
+        <p>Pour savoir comment procéder dans votre commune ou votre quartier pour vos déchats ménagers, les encombrants, et les déchets spécifiques ou dangereux, vous pouvez trouver tous les renseignements nécessaires ou télécharger les calendriers en pdf sur <a href="https://www.strasbourg.eu/collecte-des-dechets" onclick="window.open(this.href);return false">le site de Strasbourg Eurométropole</a>.</p>
     </article>
 
 </section>

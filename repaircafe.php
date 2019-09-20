@@ -2,10 +2,10 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name=“viewport” content=“width=device-width, initial-scale=1.0, shrink-to-fit=no”>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
-    <title>Repair café</title>
+    <title>My Green City - Repair café</title>
 </head>
 
 <body>
@@ -37,7 +37,7 @@
         <h2>Repair café</h2>
         <ul class="what">
             <li>
-                <img src="https://repaircafe.org/fr/wp-content/uploads/sites/3/2018/03/button-fdblanckopie-300x215.png" alt="Repair together"></img>
+                <img src="https://repaircafe.org/fr/wp-content/uploads/sites/3/2018/03/button-fdblanckopie-300x215.png" alt="Repair together">
             </li>
             <li>
                 <p>Un Repair Café est un lieu d'échange, de partage et surtout ... de réparation ! Vélo déréglé, bouilloire fatiguée, jean troué ou encore vieil ordinateur peuvent y être réparés !</p>
@@ -55,10 +55,10 @@
                 <p>Nous intervenons principalement dans le rayon de <strong>Strasbourg Eurométropole</strong> :</p>
                 <p>Achenheim - Breuschwickersheim - Bischheim - Blaesheim - Eckbolsheim - Eckwersheim - Entzheim - Eschau - Fegersheim - Geispolsheim - Hangenbieten - Hoenheim - Holtzheim - Illkirch-Graffenstaden - Kolbsheim - Lampertheim - La Wantzenau - Lipsheim - Lingolsheim - Mittelhausbergen - Mundolsheim - Niederhausbergen - Oberhausbergen - Oberschaeffolsheim - Osthoffen - Ostwald - Plobsheim - Reichstett - Schiltigheim - Souffelweyersheim - Strasbourg - Vendenheim - Wolfisheim</p>
                 <p>Nous recherchons toujours des bénévoles, et nous sommes à l'écoute pour toute proposition de lieu où poser nos instruments.</p>
-                <a href="http://www.repaircafe-strasbourg.fr" onclick="window.open(this.href);return false">Visiter le site de l'association Repair café</a
+                <a href="http://www.repaircafe-strasbourg.fr" onclick="window.open(this.href);return false">Visiter le site de l'association Repair café</a>
             </li>
             <li>
-                <img src="images/repaircafe3.jpg" alt="repair cafe eurometropole"></img>
+                <img src="images/repaircafe3.jpg" alt="repair cafe eurometropole">
             </li>
         </ul>
     </article>
@@ -66,16 +66,16 @@
 <footer>
     <ul class="liste">
         <li>
-            <a href="index.php">Accueil</a
+            <a href="index.php">Accueil</a>
         </li>
         <li>
-            <a href="mentionslegales.php">Mentions légales</a
+            <a href="mentionslegales.php">Mentions légales</a>
         </li>
         <li>
-            <a href="plansite.php">Plan du site</a
+            <a href="plansite.php">Plan du site</a>
         </li>
         <li>
-            <a href="#contact">Contact</a>
+            <a href="index.php#contact">Contact</a>
         </li>
     </ul>
 </footer>
