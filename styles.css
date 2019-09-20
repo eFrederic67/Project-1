@@ -222,7 +222,7 @@ article h4
     text-align: center;
 }
 
-article p
+.overlay p
 {
     font-size: 13px;
     margin-bottom: 20px;
@@ -285,7 +285,7 @@ h5 {
     margin: 10px 10% 10px;
 }
 
-article{
+.gestion{
     width: 100%;
     display: inline-block;
     overflow-wrap: break-word;
@@ -319,3 +319,194 @@ article{
     padding: 0.3em;
     width: 35%;
 }
+
+
+
+/*Delphine*/
+
+
+
+
+
+.vrac ul {
+    list-style:none;
+    margin-left:0;
+    padding-left:0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.emballages {
+    width: 320px;
+    margin: auto;
+}
+
+
+
+
+
+/*contact + footer*/
+
+
+
+
+form
+{
+    width: 320px;
+    margin: auto;
+    color: dimgray;
+}
+
+form label
+{
+    display: block;
+    padding-bottom: 10px;
+}
+
+form input
+{
+    padding: 0 10px;
+}
+
+form input, form textarea
+{
+    height: 40px;
+    width: 290px;
+    margin-bottom: 20px;
+    box-shadow: none;
+    border: 1px solid #8F8F8F;
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form textarea
+{
+    padding: 10px;
+    height: 150px;
+
+}
+
+form button
+{
+    width: 150px;
+    height: 40px;
+    background-color: darkseagreen;
+    color: whitesmoke;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    float: right;
+}
+
+/* Footer */
+footer
+{
+    margin-top: 50px;
+    background-color: darkseagreen;
+    padding: 5px 0;
+    color: whitesmoke;
+    width: 100%;
+    height: 110px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer li
+{
+    height: 57px;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.liste
+{
+    padding-left: 0;
+    padding-top: 24px;
+    float: right;
+    list-style: none;
+}
+
+footer a {
+    color: whitesmoke;
+    font-weight:bold;
+}
+
+footer a:visited {
+    color: #ff7a00;
+    text-decoration: none;
+}
+
+a {
+    color: #ff7a00;
+    text-decoration: none;
+}
+
+
+
+/* Tablet Styles */
+@media screen and (min-width: 401px) and (max-width: 960px) {
+    .what li {
+        font-size: 16px;
+        margin: auto;
+        display: inline-block;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    form {
+        width:75%;
+    }
+    .emballages {
+        width:75%;
+    }
+    form input, form textarea {
+        width:400px;
+    }
+    form textarea {
+        height: 200px;
+    }
+}
+
+/* Desktop Styles */
+@media screen and (min-width: 961px) {
+    .what li {
+        font-size: 16px;
+        margin: auto;
+        display: inline-block;
+        width: 50%;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .vrac ul {
+        padding: 0;
+        list-style: none;
+        display: flex;
+    }
+    h2 {
+        font-size:26px;
+    }
+    form {
+        width:50%;
+    }
+    .emballages {
+        width:50%;
+    }
+    form input, form textarea {
+        width:500px;
+    }
+    form textarea {
+        height:300px;
+    }
+}
+
+
+

@@ -2,8 +2,9 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <title>Green City</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+    <title>My green city</title>
 </head>
 
 <body>
@@ -21,7 +22,7 @@
     </div>
     <div id="slider">
         <figure>
-            <img src="https://cdn.pixabay.com/photo/2019/09/11/13/47/grass-4468766_1280.jpg" alt="">
+            <img src="images/rentree_assoc_19.png" alt="">
             <img src="https://cdn.pixabay.com/photo/2019/09/12/01/14/niagara-falls-4470219_1280.jpg" alt="">
             <img src="https://cdn.pixabay.com/photo/2019/09/08/10/41/landscape-4460685_1280.jpg" alt="">
             <img src="https://cdn.pixabay.com/photo/2019/09/14/10/42/bee-friend-4475693_1280.jpg" alt="">
@@ -69,7 +70,7 @@
                 <h4>Crous</h4>
                 <p>créée à Strasbourg, cette association a maintenant plein de magasins</p>
                 <a class="button-assoc"
-                   href="https://www.instagram.com/p/B2dybNTo4e4/">Plus d'infos</a>
+                   href="crous.php">Plus d'infos</a>
             </div>
         </article>
         <article id="BeeVrac">
@@ -77,7 +78,7 @@
                 <h4>BeeVrac</h4>
                 <p>créée à Strasbourg, cette association a maintenant plein de magasins</p>
                 <a class="button-assoc"
-                   href="https://beevrac.fr/">Plus d'infos</a>
+                   href="beevrac.php">Plus d'infos</a>
             </div>
         </article>
         <article id="RepairCafe">
@@ -85,7 +86,7 @@
                 <h4>Repair Café</h4>
                 <p>créée à Strasbourg, cette association a maintenant plein de magasins</p>
                 <a class="button-assoc"
-                   href="http://www.repaircafe-strasbourg.fr/">Plus d'infos</a>
+                   href="repaircafe.php">Plus d'infos</a>
             </div>
         </article>
     </div>
@@ -103,7 +104,7 @@
 
     <h5>Conseils</h5>
 
-    <article class="informations">
+    <article class="informations gestion">
         <img alt="logo recyclage" src="https://cdn.pixabay.com/photo/2018/04/05/23/59/nature-3294632_960_720.jpg">
         <div class="conseils">
             <ul class="point">
@@ -117,11 +118,52 @@
     </article>
     <h5>Points de collecte</h5>
 
-    <article class="descriptions">
+    <article class="descriptions gestion">
         <img alt="Poubelle" src="https://cdn.pixabay.com/photo/2013/11/09/20/19/trash-207996_960_720.jpg">
         <p>jgrjjrehguresnof,ksreng,jselgtfnbslrjeqk,nvhjdkrhyjvsuyssefze v' tg e( g(er hg(r (z sthg(h s hstrhs gq q,sdc,uhynisjut</p>
     </article>
 
 </section>
+
+
+
+
+<form>
+    <div id="contact">
+        <h2>
+            Nous contacter
+        </h2>
+        <label for="name">Votre nom :</label>
+        <input type="text" id="name" name="user_name">
+    </div>
+    <div>
+        <label for="mail">Votre e-mail :</label>
+        <input type="email" id="mail" name="user_mail">
+    </div>
+    <div>
+        <label for="msg">Votre message :</label>
+        <textarea id="msg" name="user_message"></textarea>
+    </div>
+    <div class="button">
+        <button type="submit">Envoyer</button>
+        <div style="clear:both"></div>
+    </div>
+</form>
+<footer>
+    <ul class="liste">
+        <li>
+            <a href="index.php">Accueil</a>
+        </li>
+        <li>
+            <a href="mentionslegales.php">Mentions légales</a>
+        </li>
+        <li>
+            <a href="plansite.php">Plan du site</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+    </ul>
+</footer>
 </body>
 </html>

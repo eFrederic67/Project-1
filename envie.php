@@ -2,126 +2,81 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <title>Green City</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+    <title>My Green City - Envie</title>
 </head>
 
 <body>
 <header>
     <div class="logonav">
-        <div class="logo"><a href="#home"><img class="logo" src="images/logo.png" alt="logo"></a></div>
+        <div class="logo"><a href="index.php"><img class="logo" src="images/logo.png" alt="logo"></a></div>
         <nav class="bar">
 
             <ol>
                 <li class="navbar"><a href="index.php#Actions">ACTIONS</a></li>
-                <li class="navbar"><a href="#Associations">ASSOCIATIONS</a></li>
-                <li class="navbar"><a href="#Dechets">DECHETS</a></li>
+                <li class="navbar"><a href="index.php#Associations">ASSOCIATIONS</a></li>
+                <li class="navbar"><a href="index.php#Dechets">DECHETS</a></li>
             </ol>
         </nav>
     </div>
     <div id="slider">
         <figure>
-            <img src="https://cdn.pixabay.com/photo/2019/09/11/13/47/grass-4468766_1280.jpg" alt="">
-            <img src="https://cdn.pixabay.com/photo/2019/09/12/01/14/niagara-falls-4470219_1280.jpg" alt="">
-            <img src="https://cdn.pixabay.com/photo/2019/09/08/10/41/landscape-4460685_1280.jpg" alt="">
-            <img src="https://cdn.pixabay.com/photo/2019/09/14/10/42/bee-friend-4475693_1280.jpg" alt="">
-            <img src="https://cdn.pixabay.com/photo/2019/09/10/16/15/sea-4466575_1280.jpg" alt="">
+            <img src="images/slider_envie_1.jpg" alt="logo Envie">
+            <img src="images/slider_envie_2.jpg" alt="envie extérieur magasin strasbourg"
+            <img src="images/slider_envie_3.jpg" alt="envie intérieur magasin strasbourg">
+            <img src="images/slider_envie_4.jpg" alt="envie recyclage et collecte electromenager">
+            <img src="images/slider_envie_5.jpg" alt="envie marché noel off strasbourg">
         </figure>
     </div>
 </header>
 
-<section id="Actions">
-    <h2>Actions Eurométropole</h2>
-    <ul class="list-style-none">
-        <!-- action 1 -->
+<body>
+<section class="emballages">
+    <article class="vrac">
+        <h2>Envie</h2>
+        <ul class="what">
+            <li>
+                <img src="images/envie_presentation.jpg" alt="Envie rénovation et revente d'électroménager"></img>
+            </li>
+            <li>
+                <p><b>Envie</b> = <b>E</b>ntreprise <b>N</b>ouvelle Vers l’<b>I</b>nsertion par l’<b>E</b>conomique</p>
+                <br>
+                <p>L’activité débute en 1984 par la <b>récupération</b> et la <b>remise en état d’appareils électroménagers</b> cédés par la communauté et la <b>revente sous garantie</b>.</p>
+                <p>L’association "Envie Développement" est créée en 1989. Elle permet à Tours, Saint Étienne, Paris, Le Mans, Angoulême, Grenoble, Bordeaux et à d’autres de voir le jour. Envie Strasbourg est ainsi à l’origine du réseau Envie.</p>
+            </li>
+        </ul>
+    </article>
+    <article class="vrac">
+        <h3>Halte à la surconsommation et à l'obsolescence programmée !</h3>
+        <ul class="what">
+            <li>
+                <p><b>Comment ça marche ?</b></p>
+                <p>Pour les produits sans garantie, achetés ou non chez Envie, un service de dépannage et réparation peut intervenir, à domicile ou en atelier dans les 48h.</p>
+                <p>Envie Strasbourg a mis en place un service de collecte à domicile tous les lundis auprès des particuliers de l'Eurométropole ; sont concernés les vieux équipements électrodomestiques (cuisinières, lave-linge, réfrigérateurs…), qu’ils soient fonctionnels ou non !</p>
+                <a href="https://strasbourg.envie.org/" onclick="window.open(this.href);return false">Visiter le site de Envie Strasbourg</a
+            </li>
+            <li>
+                <img src="images/envies_activites.png" alt="Activités de Envie"></img>
+            </li>
+        </ul>
+    </article>
+</section>
+<footer>
+    <ul class="liste">
         <li>
-            <h3>Compostage</h3>
-            <a href="https://www.strasbourg.eu/composter-dechets-compostage-dechets-verts" target="_blank" title="Strasbourg-compostage"><img src="images/compostage.jpeg" alt="Strasbourg-compostage"/></a>
-            <p><br>Actions de compostage accompagnées par Eurométropole</p>
+            <a href="index.php">Accueil</a>
         </li>
-        <!-- action 2 -->
         <li>
-            <h3>Eco quartier Danube</h3>
-            <a href="https://www.strasbourg.eu/eco-quartier-danube" target="_blank" title="Eco-quartier Danube"><img src="images/Danube.jpeg" alt="Eco-quartier Danube"/></a>
-            <p><br>Le projet de l'éco-quartier Danube au Neudorf accompagné par Eurométropole</p>
+            <a href="mentionslegales.php">Mentions légales</a>
         </li>
-        <!-- action 3 -->
         <li>
-            <h3>Economie Circulaire / Recyclage</h3>
-            <a href="https://www.economiecirculaire.org/company/h/eurometropole-de-strasbourg.html" target="_blank" title="Strasbourg-eco-circulaire"><img class="image-droite" src="images/eco-circulaire.jpeg" alt="Strasbourg-eco-circulaire"/></a>
-            <p>Actions autour de l'économie circulaire et du recyclage accompagnées par Eurométropole</p>
+            <a href="plansite.php">Plan du site</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
         </li>
     </ul>
-</section>
-<section id="Associations">
-    <h2>Associations</h2>
-    <div class="container">
-        <article id="Envie">
-            <div class="overlay">
-                <h4>Envie</h4>
-                <p>créée à Strasbourg, cette association a maintenant plein de magasins</p>
-                <a class="button-assoc"
-                   href="envie.php/">Plus d'infos</a>
-            </div>
-        </article>
-        <article id="Crous">
-            <div class="overlay">
-                <h4>Crous</h4>
-                <p>créée à Strasbourg, cette association a maintenant plein de magasins</p>
-                <a class="button-assoc"
-                   href="https://www.instagram.com/p/B2dybNTo4e4/">Plus d'infos</a>
-            </div>
-        </article>
-        <article id="BeeVrac">
-            <div class="overlay">
-                <h4>BeeVrac</h4>
-                <p>créée à Strasbourg, cette association a maintenant plein de magasins</p>
-                <a class="button-assoc"
-                   href="https://beevrac.fr/">Plus d'infos</a>
-            </div>
-        </article>
-        <article id="RepairCafe">
-            <div class="overlay">
-                <h4>Repair Café</h4>
-                <p>créée à Strasbourg, cette association a maintenant plein de magasins</p>
-                <a class="button-assoc"
-                   href="http://www.repaircafe-strasbourg.fr/">Plus d'infos</a>
-            </div>
-        </article>
-    </div>
-</section>
-
-
-
-
-
-
-
-<h2 id="Dechets">Gestion des déchets</h2>
-
-<section class="dechets">
-
-    <h5>Conseils</h5>
-
-    <article class="informations">
-        <img alt="logo recyclage" src="https://cdn.pixabay.com/photo/2018/04/05/23/59/nature-3294632_960_720.jpg">
-        <div class="conseils">
-            <ul class="point">
-                <li>Le recyclage commence déjà par un tri sélectif de nos ordures ménagères et de nos déchets : piles, cartouche d'encre, papier, verre, plastique en tenant compte de différentes consignes.</li>
-                <li>Je peux aussi déposer mes déchets et mes encombrants à la déchetterie proche de chez moi, comme : les restes de peinture, de solvants usagés ou d'huiles usagées.</li>
-                <li>Je proscris les dépôts sauvages pour préserver mon environnement.</li>
-                <li>Je rapporte à mon pharmacien les médicaments non utilisés ou périmés ainsi que leurs emballages.</li>
-                <li>Rapporter mes objets dont je n'ai plus l'utilité ou arrivant en fin de vie permet de recycler les matières qui les composent.</li>
-            </ul>
-        </div>
-    </article>
-    <h5>Points de collecte</h5>
-
-    <article class="descriptions">
-        <img alt="Poubelle" src="https://cdn.pixabay.com/photo/2013/11/09/20/19/trash-207996_960_720.jpg">
-        <p>jgrjjrehguresnof,ksreng,jselgtfnbslrjeqk,nvhjdkrhyjvsuyssefze v' tg e( g(er hg(r (z sthg(h s hstrhs gq q,sdc,uhynisjut</p>
-    </article>
-
-</section>
+</footer>
 </body>
 </html>
