@@ -9,25 +9,10 @@
 </head>
 <body>
 <header>
-    <div class="logonav">
-        <div class="logo"><a href="index.php"><img class="logo" src="images/logo.png" alt="logo"></a></div>
-        <nav class="bar">
-            <ol>
-                <li class="navbar"><a href="index.php#Actions">ACTIONS</a></li>
-                <li class="navbar"><a href="index.php#Associations">ASSOCIATIONS</a></li>
-                <li class="navbar"><a href="index.php#Dechets">DECHETS</a></li>
-            </ol>
-        </nav>
-    </div>
-    <div id="slider">
-        <figure>
-            <img src="images/crous1.jpeg" alt="crous">
-            <img src="images/crous.png" alt="crous resto">
-            <img src="images/Crous-5.jpg" alt="crous">
-            <img src="images/Crous2.png" alt="crous">
-            <img src="images/Crous-3.jpg" alt="Crous">
-        </figure>
-    </div>
+    <?php
+    // J'intègre ma barre de navigation EN : + les commandes PHP GET associées
+    include '../src/navbar.php';
+    ?>
 </header>
 <section class="emballages">
     <article class="vrac">

@@ -1,17 +1,28 @@
+<?php
+include '../config/db.php';
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
     <title>My green city</title>
 </head>
 
 <body>
 <header>
+
+    <?php
+    // J'intègre ma barre de navigation EN : + les commandes PHP GET associées
+    include 'navbar.php';
+    include '../src/get.php';
+    ?>
+    <!-- EN : ANCIEN CODE NAVBAR + SLIDER maintenant dans navbar.php
     <div class="logonav">
-    <div class="logo"><a href="#home"><img class="logo" src="images/logo.png" alt="logo"></a></div>
+    <div class="logo"><a href="#home"><img class="logo" src="../images/logo.png" alt="logo"></a></div>
     <nav class="bar">
 
         <ol>
@@ -23,13 +34,13 @@
     </div>
     <div id="slider">
         <figure>
-            <img src="images/slider_envie_1.jpg" alt="logo Envie">
-            <img src="images/crous1.jpeg" alt="crous">
-            <img src="images/BeeVrac1.jpg" alt="BeeVrac">
-            <img src="images/repaircafe2.jpg" alt="logo repair cafe">
+            <img src="../images/slider_envie_1.jpg" alt="logo Envie">
+            <img src="../images/crous1.jpeg" alt="crous">
+            <img src="../images/BeeVrac1.jpg" alt="BeeVrac">
+            <img src="../images/repaircafe2.jpg" alt="logo repair cafe">
             <img src="https://cdn.pixabay.com/photo/2019/09/10/16/15/sea-4466575_1280.jpg" alt="la mer">
         </figure>
-    </div>
+    </div>-->
 </header>
 
 <section id="Actions">
@@ -165,3 +176,5 @@
 </footer>
 </body>
 </html>
+
+

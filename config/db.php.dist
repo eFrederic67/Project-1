@@ -1,0 +1,8 @@
+<?php
+// Configuration de mes constantes pour PDO
+define("DSN", "mysql:host=localhost;dbname=Projet1_Green_Strasbourg");
+define("USER", "");
+define("PASS", "");
+
+// Connection avec PDO
+$pdo = new PDO(DSN, USER, PASS);

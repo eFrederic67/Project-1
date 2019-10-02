@@ -9,25 +9,10 @@
 </head>
 <body>
 <header>
-    <div class="logonav">
-        <div class="logo"><a href="index.php"><img class="logo" src="images/logo.png" alt="logo"></a></div>
-        <nav class="bar">
-            <ol>
-                <li class="navbar"><a href="index.php#Actions">ACTIONS</a></li>
-                <li class="navbar"><a href="index.php#Associations">ASSOCIATIONS</a></li>
-                <li class="navbar"><a href="index.php#Dechets">DECHETS</a></li>
-            </ol>
-        </nav>
-    </div>
-    <div id="slider">
-        <figure>
-            <img src="images/BeeVrac1.jpg" alt="patronne du magasin BeeVrac">
-            <img src="images/BeeVrac2.jpg" alt="mur du magasin BeeVrac">
-            <img src="https://cdn.pixabay.com/photo/2017/04/25/08/02/coffee-beans-2258839_960_720.jpg" alt="Grains de café en vrac">
-            <img src="https://cdn.pixabay.com/photo/2018/06/29/15/18/rice-3506194_960_720.jpg" alt="Riz en vrac">
-            <img src="https://cdn.pixabay.com/photo/2017/08/15/11/29/chocolate-2643591_960_720.jpg" alt="Cacao en vrac">
-        </figure>
-    </div>
+    <?php
+    // J'intègre ma barre de navigation EN : + les commandes PHP GET associées
+    include '../src/navbar.php';
+    ?>
 </header>
 <section class="emballages">
     <article class="vrac">

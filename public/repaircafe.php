@@ -10,26 +10,10 @@
 
 <body>
 <header>
-    <div class="logonav">
-        <div class="logo"><a href="index.php"><img class="logo" src="images/logo.png" alt="logo"></a></div>
-        <nav class="bar">
-
-            <ol>
-                <li class="navbar"><a href="index.php#Actions">ACTIONS</a></li>
-                <li class="navbar"><a href="index.php#Associations">ASSOCIATIONS</a></li>
-                <li class="navbar"><a href="index.php#Dechets">DECHETS</a></li>
-            </ol>
-        </nav>
-    </div>
-    <div id="slider">
-        <figure>
-            <img src="images/repaircafe2.jpg" alt="logo repair cafe">
-            <img src="images/repaircafe1.jpg" alt="atelier au repair café">
-            <img src="images/repaircafe4.jpg" alt="atelier au repair café">
-            <img src="images/repaircafe5.jpg" alt="atelier au repair café">
-            <img src="images/repaircafe6.jpg" alt="reparation d'un vélo">
-        </figure>
-    </div>
+    <?php
+    // J'intègre ma barre de navigation EN : + les commandes PHP GET associées
+    include '../src/navbar.php';
+    ?>
 </header>
 
 <section class="emballages">

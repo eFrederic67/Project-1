@@ -12,25 +12,10 @@
 <body>
 
 <header>
-    <div class="logonav">
-        <div class="logo"><a href="index.php"><img class="logo" src="images/logo.png" alt="logo"></a></div>
-        <nav class="bar">
-            <ol>
-                <li class="navbar"><a href="index.php#Actions">ACTIONS</a></li>
-                <li class="navbar"><a href="index.php#Associations">ASSOCIATIONS</a></li>
-                <li class="navbar"><a href="index.php#Dechets">DECHETS</a></li>
-            </ol>
-        </nav>
-    </div>
-    <div id="slider">
-        <figure>
-            <img src="images/slider_envie_1.jpg" alt="logo Envie">
-            <img src="images/slider_envie_2.jpg" alt="envie extérieur magasin strasbourg">
-            <img src="images/slider_envie_3.jpg" alt="envie intérieur magasin strasbourg">
-            <img src="images/slider_envie_4.jpg" alt="envie recyclage et collecte electromenager">
-            <img src="images/slider_envie_5.jpg" alt="envie marché noel off strasbourg">
-        </figure>
-    </div>
+    <?php
+    // J'intègre ma barre de navigation EN : + les commandes PHP GET associées
+    include '../src/navbar.php';
+    ?>
 </header>
 <section class="emballages">
     <article class="vrac">
